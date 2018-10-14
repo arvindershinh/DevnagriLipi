@@ -7,9 +7,10 @@ Training Data: - Steps to create training dataset
 + Used Dataset Augmentation to generate further datasets by translation and rotation of existing Images using self-written python code.
 + Normalization of Images
 
+
 Architecture of Convolution Neural Network Training Algorithm
 + Training Datasets: - Algorithm shuffles and create fixed size batches of datasets.
-+ Model Function: - Model function consist of 6 layers (Convolution+Pooling+Convolution+Pooling+Dense?Dense). Each layer is using ReLU activation function to add non-linearity.
++ Model Function: - Model function consist of 6 layers (Convolution+Pooling+Convolution+Pooling+Dense+Dense). Each layer is using ReLU activation function to add non-linearity.
 + Regularization-Used dropout for model regularization. 
 + Output Function: - Used Softmax function as output function to get normalized probability from Model Function Output.
 + Cost Function: - Used Cross Entropy estimator with output of Softmax.
@@ -18,6 +19,7 @@ Architecture of Convolution Neural Network Training Algorithm
 performance measure: - Used Accuracy as performance measure.
 
 Visualization Tool: - Used Tensorboard to visualize loss, Accuracy, weights and biases Histogram graphs and used matplotlib to visualize Image Data.
+
 
 Deployment (Using Serving and Docker)
 + Using TensorFlow saved model builder APIs, exported model into Protocol buffer format.
