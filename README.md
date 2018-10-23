@@ -69,4 +69,4 @@ parameter sharing, model averaging, Dropout
 Technologies 
 + Python, Python Frameworks – NumPy, matplotlib, pandas, PIL
 + TensorFlow Framework – TensorFlow Low level APIs, Tensorboard, Serving
-+ Docker Container Platform    
++ Docker Container Platform
