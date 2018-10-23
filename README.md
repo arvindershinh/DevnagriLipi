@@ -34,3 +34,32 @@ Deployment (Using Serving and Docker)
   * Created a Python file and imported above python serving api files in it.
   * In Python File, created Request with server IP address and Port. 
   * Provided input Devnagri lipi image to request and executed python code to execute request and get response.
+
+
+  Self-Learned Machine Learning Concepts 
+Before creating machine learning project, I deeply learned the following concepts.
+
+Mathematical Concepts 
+    + Linear Algebra – Linearly Independent Vectors, Eigendecomposition, Singular Value Decomposition, PCA, Trace Operator, Moore-Penrose Pseudoinverse
+
+    + Probability – i.i.d, central limit theorem, Probability Distributions- (Bernoulli, Gaussian, Laplace, Mixtures of Distributions), Chain Rule of Conditional Probabilities, Expectation, Variance, Covariance, covariance matrix, [Common Functions-logistic sigmoid, softplus, softmax], Bayes’ Rule, [Information Theory-Kullback-Leibler (KL) divergence, cross-entropy], Structured Probabilistic Models
+
+    + Numerical Computation & Calculus – [Taylor series approximation of a function and its significance], differentiation, integration, [Overﬂow and Underﬂow], [Poor Conditioning and its challenges], Gradient, Gradient descent, [Jacobian and Hessian Matrices], [positive and negative deﬁnite Matrices], line search, first/second-order optimization algorithms, convex/non-convex optimization problems.
+
+Machine learning Concepts
+    + Machine Learning Basics – [Capacity, Overﬁtting and Underﬁtting], training error, generalization error, The No Free Lunch Theorem, [Hyperparameters and Validation Sets], k-fold cross-validation algorithm
+Frequentist Statistics[Bias and Variance of Estimators], Standard Error, [relation between Bias, Variance and Mean Squared Error of an Estimator and their link with Overﬁtting and Underﬁtting], Consistency, Maximum Likelihood Estimation, [Conditional Log-Likelihood vs Mean Squared Error]
+Bayesian Statisticsprior/posterior probability distribution, Maximum a Posteriori (MAP) Estimation.
+Supervised learning algorithmslinear regression, logistic regression, Support Vector Machines, k-nearest neighbors
+Unsupervised learning algorithmsPCA (lower-dimensional and independent representation of data), k-means Clustering (sparse representation of data).
+
+Deep learning Concepts
+    + Deep Feedforward Networks – [output layer Units- Linear/Sigmoid/Softmax, hidden layers], [activation functions- ReLU, other variants of ReLU], [Cost Functions- Maximum Likelihood], Chain Rule of Calculus, back-propagation algorithm
+    + Regularization Techniques – weight decay (L2, L1 norm), Dataset Augmentation, Noise Robustness, Early Stopping, Semi-Supervised Learning, parameter sharing, model averaging, Dropout
+    + Optimization – SGD, Momentum, [Adaptive Learning Rates Algorithms- AdaGrad, RMSProp, Adam], Newton’s Method, Batch Normalization technique.
+
+Technologies 
+    + Python, Python Frameworks – NumPy, matplotlib, pandas, PIL
+    + TensorFlow Framework – TensorFlow Low level APIs, Tensorboard, Serving
+    + Docker Container Platform
+
