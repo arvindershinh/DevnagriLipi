@@ -36,7 +36,9 @@ Deployment (Using Serving and Docker)
   * Provided input Devnagri lipi image to request and executed python code to execute request and get response.
 
 
+
 Self-Learned Machine Learning Concepts 
+
 Before creating machine learning project, I deeply learned the following concepts.
 
 Mathematical Concepts
@@ -51,13 +53,11 @@ Chain Rule of Conditional Probabilities, Expectation, Variance, Covariance, cova
 
 Machine learning Concepts
 + Machine Learning Basics – [Capacity, Overfitting and Underfitting], training error, generalization error, The No Free Lunch Theorem, 
-[Hyperparameters and Validation Sets], k-fold cross-validation algorithm 
-
-Frequentist Statistics-[Bias and Variance of Estimators], Standard Error, [relation between Bias, Variance and Mean Squared Error of an Estimator and their link with Overfitting and Underfitting], Consistency, Maximum Likelihood Estimation, [Conditional Log-Likelihood vs Mean Squared Error]
-  
-Bayesian Statistics-prior/posterior probability distribution, Maximum a Posteriori (MAP) Estimation.
-Supervised learning algorithms-linear regression, logistic regression, Support Vector Machines, k-nearest neighbors
-Unsupervised learning algorithms-PCA (lower-dimensional and independent representation of data), k-means Clustering (sparse representation of data).
+  [Hyperparameters and Validation Sets], k-fold cross-validation algorithm 
+  * Frequentist Statistics-[Bias and Variance of Estimators], Standard Error, [relation between Bias, Variance and Mean Squared Error of an Estimator and their link with Overfitting and Underfitting], Consistency, Maximum Likelihood Estimation, [Conditional Log-Likelihood vs Mean Squared Error] 
+  * Bayesian Statistics-prior/posterior probability distribution, Maximum a Posteriori (MAP) Estimation.
+  * Supervised learning algorithms-linear regression, logistic regression, Support Vector Machines, k-nearest neighbors
+  * Unsupervised learning algorithms-PCA (lower-dimensional and independent representation of data), k-means Clustering (sparse representation of data).
 
 Deep learning Concepts
 + Deep Feedforward Networks – [output layer Units- Linear/Sigmoid/Softmax, hidden layers], [activation functions- ReLU, other variants of ReLU], 
